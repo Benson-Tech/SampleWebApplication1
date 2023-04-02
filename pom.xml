@@ -24,14 +24,14 @@
   <distributionManagement>
             <repository>
               <id>nexus</id>
-              <name>Joeysparks Releases Nexus Repository</name>
-	      <url>http://52.207.150.149:8081/repository/swa6-releases/</url>
+              <name>rewe releases Nexus Repository</name>
+	      <url>http://3.71.28.138:8181/mylandmarktech/repository/rewe-releases/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
-              <name>Joeysparkx Snapshot Nexus Repository </name>
-	      <url>http://52.207.150.149:8081/repository/swa6-snapshot/</url>
+              <name>rewe snapshot Nexus Repository </name>
+	      <url>http://3.71.28.138:8181/mylandmarktech/repository/rewe-snapshot/</url>
             </snapshotRepository>
 
   </distributionManagement>
@@ -47,6 +47,6 @@
   </dependencies>
 
   <build>
-    <finalName>SampleWebApplication</finalName>
+    <finalName>REWE</finalName>
   </build>
 </project>
